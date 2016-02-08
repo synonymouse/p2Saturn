@@ -83,7 +83,8 @@ template {
  * Remove the gray background color from active links in IE 10.
  */
 a {
-  background-color: transparent; }
+  background-color: transparent;
+  text-decoration: none; }
 
 /**
  * Improve readability of focused elements when they are also in an
@@ -464,18 +465,21 @@ a:hover {
 
 .container {
   max-width: 662px;
-  margin: auto;
-  box-sizing: border-box; }
+  margin: auto; }
 
 .header {
   position: absolute;
   display: inline-block;
   width: 100%;
   text-align: center;
-  border-bottom: 1px solid #000; }
+  border-bottom: 1px solid #000;
+  padding: 35px 0 35px 0; }
   .header__logo {
     display: inline-block;
-    position: relative; }
+    position: relative;
+    float: left;
+    line-height: 18px;
+    letter-spacing: -2px; }
   .header .__logo {
     font-weight: 700;
     font-size: 27px;
@@ -483,8 +487,9 @@ a:hover {
 
 .nav {
   display: inline-block;
-  padding: 38px; }
+  position: absolute; }
   .nav__item {
+    font-family: "Lato", Arial, sans-serif;
     display: inline-block;
     margin-left: 25px; }
 
