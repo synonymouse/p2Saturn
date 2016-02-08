@@ -1,0 +1,43 @@
+@import "normalize";
+
+@include normalize;
+
+@import "base";
+
+.container {
+	max-width: 662px;
+	margin: auto;
+	box-sizing: border-box;
+}
+
+//Navigation
+
+.header {
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000; //Del
+
+  &__logo {
+  display: inline-block;
+	position: relative;
+}
+
+.__logo {
+	font-weight: 700;
+	font-size: 27px;
+	color: #000;
+}
+
+}
+
+.nav {
+  display: inline-block;
+  padding: 38px;
+
+  &__item {
+    display: inline-block;
+    margin-left: 25px;
+  }
+}
