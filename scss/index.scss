@@ -1,55 +1,48 @@
 @import "normalize";
-
 @include normalize;
-
 @import "base";
-
 .container {
-  max-width: 662px;
-  margin: auto;
-    outline: 1px solid #000;
+    max-width: 662px;
+    margin: auto;
 }
 
 //Navigation
 .header {
-  position: relative;
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-  border-bottom: 1px solid #000; //Del
-  padding: 35px 0 35px 0;
-
-  &__logo {
-    display: inline-block;
     position: relative;
-    float: left;
-    line-height: 18px;
-    letter-spacing: -1px;
-  }
-
-  .__logo {
-    font-weight: 700;
-    font-size: 27px;
-    color: #000;
-  }
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000; //Del
+    padding: 35px 0 35px 0;
+    &__logo {
+        display: inline-block;
+        position: relative;
+        float: left;
+        line-height: 18px;
+        letter-spacing: -1px;
+    }
+    .__logo {
+        font-weight: 700;
+        font-size: 27px;
+        color: #000;
+    }
 }
 
 .nav {
-  display: inline-block;
-  position: absolute;
-
-  &__item {
-    font-family: $font-headings;
     display: inline-block;
-    margin-left: 25px;
-  }
+    position: absolute;
+    &__item {
+        font-family: $font-headings;
+        display: inline-block;
+        margin-left: 25px;
+    }
 }
 
 .intro {
-  position: absolute;
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-  height: 272px;
-  background: url(../img/head-bg.jpg) center;
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    height: 272px;
+    background: url(../img/head-bg.jpg) center;
 }
