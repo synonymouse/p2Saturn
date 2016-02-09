@@ -11,7 +11,7 @@
 
 //Navigation
 .header {
-  position: absolute;
+  position: relative;
   display: inline-block;
   width: 100%;
   text-align: center;
@@ -23,7 +23,7 @@
     position: relative;
     float: left;
     line-height: 18px;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
   }
 
   .__logo {
@@ -42,4 +42,13 @@
     display: inline-block;
     margin-left: 25px;
   }
+}
+
+.intro {
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  height: 272px;
+  background: url(../img/head-bg.jpg) center;
 }
