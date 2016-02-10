@@ -470,12 +470,15 @@ a:hover {
 .header {
   display: block;
   outline: 1px solid #000;
-  height: 82px;
   width: 100%;
-  position: absolute; }
+  position: absolute;
+  padding-top: 35px;
+  padding-bottom: 35px; }
   .header__logo {
-    position: relative;
-    text-align: left; }
+    width: 30%;
+    float: left; }
 
 .nav {
-  text-align: right; }
+  text-align: right;
+  width: 70%;
+  float: right; }
