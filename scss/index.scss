@@ -1,6 +1,7 @@
 @import "normalize";
 @include normalize;
 @import "base";
+
 .container {
     max-width: 662px;
     margin: auto;
@@ -8,47 +9,21 @@
 
 //Navigation
 .header {
-    position: relative;
-    display: inline-block;
+    display: block;
+    outline: 1px solid #000;
+    height: 82px;
     width: 100%;
-    text-align: center;
-    border-bottom: 1px solid #000; //Del
-    padding: 35px 0 35px 0;
+    position: absolute;
     &__logo {
-        display: inline-block;
         position: relative;
-        float: left;
-        line-height: 18px;
-        letter-spacing: -1px;
+        text-align: left;
     }
-    .__logo {
-        font-weight: 700;
-        font-size: 27px;
-        color: #000;
-    }
+}
+
+.__logo {
+    
 }
 
 .nav {
-    display: inline-block;
-    position: absolute;
-    &__item {
-        font-family: $font-headings;
-        display: inline-block;
-        margin-left: 25px;
-    }
+    text-align: right;
 }
-
-.intro {
-    position: relative;
-    display: block;
-    width: 100%;
-    text-align: center;
-    height: 272px;
-    background: url(../images/head-bg.jpg) center;
-    &__img {
-        position: absolute;
-        display: inline-block;
-        
-    }
-}
-
