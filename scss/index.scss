@@ -39,10 +39,16 @@
 }
 
 .intro {
-    position: absolute;
-    display: inline-block;
+    position: relative;
+    display: block;
     width: 100%;
     text-align: center;
     height: 272px;
-    background: url(../img/head-bg.jpg) center;
+    background: url(../images/head-bg.jpg) center;
+    &__img {
+        position: absolute;
+        display: inline-block;
+        
+    }
 }
+
