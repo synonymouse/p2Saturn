@@ -1,17 +1,27 @@
 // Base
-h1, h2, h3, h4, h5, h6 {
-  font-family: $font-headings;
-  color: #000;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font-headings;
+    color: #000;
+    font-weight: 600;
+    font-size: 22px;
 }
 
-a, p, li {
-  font-family: $font-body;
-  color: $primary-color;
+a,
+p,
+li {
+    font-family: $font-body;
+    color: $body-color;
+    font-weight: 400;
 }
 
 a {
-  &:hover {
-    text-decoration: none !important;
-    color: $link-color !important;
-  }
+    &:hover {
+        text-decoration: none;
+        color: $link-color;
+    }
 }
